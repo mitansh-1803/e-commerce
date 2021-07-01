@@ -1,0 +1,39 @@
+#footer{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+#footer>div{
+    padding: 5px 20px 10px;
+}
+#footer a{
+    display: block;
+    color: #b8b8b8;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+#footer a:hover{
+    color: #009688;
+}
+#footer h3{
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 16px;
+}
+@media(max-width:600px){
+    #footer{
+        flex-wrap: wrap;
+    }
+    #footer>div{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 375px){
+    #footer>div{
+        width:80%;
+    }
+}
